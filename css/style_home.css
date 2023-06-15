@@ -187,3 +187,14 @@ nav {
 .footer .credit span {
     color: #E74646;
 }
+.flex-column{
+    z-index: 1;
+    position: absolute;
+    left: 75vw;
+    top: 31vh;
+    border-radius: 20px;
+}
+.btn-primary,.btn-outline-primary{
+    
+    margin: 2px;
+}
