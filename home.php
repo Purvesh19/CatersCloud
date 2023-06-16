@@ -48,9 +48,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Menu</a>
-                    </li>
+                    
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -320,7 +318,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
                 </div>
             </div>
             <div class="col side-bar">
-                <div class="">side bar</div>
+                
             </div>
             <div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary" style="width: 320px;">
                 <a href="/"
@@ -393,16 +391,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
                         <section id="footer" class="footer">
 
                             <div class="box-container">
-
-                                <div class="box">
-                                    <h3>Our Services</h3>
-                                    <a href="#OurServices"> <i class="fas fa-chevron-right"></i>Lorem</a>
-                                    <a href="#OurServices"> <i class="fas fa-chevron-right"></i>Lorem</a>
-                                    <a href="#OurServices"> <i class="fas fa-chevron-right"></i>Lorem</a>
-                                    <a href="#OurServices"> <i class="fas fa-chevron-right"></i>Lorem</a>
-                                    <a href="#OurServices"> <i class="fas fa-chevron-right"></i>Lorem</a>
-                                </div>
-
+                        
+                                
                                 <div class="box">
                                     <h3>Contact Info</h3>
                                     <a href="#"> <i class="fas fa-phone"></i>+91 9999988888</a>
@@ -411,7 +401,17 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
                                     <a href="#"> <i class="fas fa-envelope"></i>BookYourCater@gmail.com </a>
                                     <a href="#"> <i class="fas fa-map-marker-alt"></i>Delhi, India</a>
                                 </div>
-
+                                <div class="box">
+                                    <h3>Our Services</h3>
+                                    <a href="#OurServices"> <i class="fas fa-chevron-right"></i>Lorem</a>
+                                    <a href="#OurServices"> <i class="fas fa-chevron-right"></i>Lorem</a>
+                                    <a href="#OurServices"> <i class="fas fa-chevron-right"></i>Lorem</a>
+                                    <a href="#OurServices"> <i class="fas fa-chevron-right"></i>Lorem</a>
+                                    <a href="#OurServices"> <i class="fas fa-chevron-right"></i>Lorem</a>
+                                </div>
+                        
+                                
+                        
                                 <div class="box">
                                     <h3>Follow us</h3>
                                     <a href="#"> <i class="fab fa-facebook-f"></i>Facebook</a>
@@ -420,11 +420,19 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
                                     <a href="#"> <i class="fab fa-linkedin"></i>LinkedIn</a>
                                     <a href="#"> <i class="fab fa-pinterest"></i>Pinterest</a>
                                 </div>
-
+                                <div class="box">
+                                    <h3>Quick Links</h3>
+                                    <a href="#home"> <i class="fas fa-chevron-right"></i>Home</a>
+                                    
+                                    <a href="#WhatWeDo"> <i class="fas fa-chevron-right"></i>What We Do?</a>
+                                    <a href="#OurServices"> <i class="fas fa-chevron-right"></i>Our Services</a>
+                                    <a href="#WhyChooseUs"> <i class="fas fa-chevron-right"></i>Why Choose Us?</a>
+                                </div>
+                        
                             </div>
-
+                        
                             <div class="credit"> Created by <span>Team CatersCloud</span></div>
-
+                        
                         </section>
 
 
