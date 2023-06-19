@@ -25,3 +25,8 @@ of Customers with photos. 
 This will give a lots of Career scope for caterers.
 
 4. We are preventing wastage of food that is very common in small and large scale functions.
+
+## Contributions
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
